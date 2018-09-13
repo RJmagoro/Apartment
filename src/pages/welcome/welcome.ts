@@ -122,7 +122,7 @@ export class WelcomePage {
           this.testRadioOpen = false;
           this.testRadioResult = data;
          
-          // this.navCtrl.setRoot("SignupPage");
+          this.navCtrl.setRoot("TenatLoginPage")
          //this.landLordsignup()
         }});
    
@@ -134,7 +134,7 @@ export class WelcomePage {
           this.testRadioOpen = false;
           this.testRadioResult = data;
         //console.log( this.testRadioResult.value);
-          this. display = 1; 
+          this.navCtrl.setRoot("LoginPage")
         
         }});
       //alert.addButton('Cancel');
